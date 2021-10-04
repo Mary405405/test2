@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- un commentaire html  -->
+    <!-- La balise contient toutes les balises que doit prendre en compte le navigateur avant l'affichage de la page -->
+<head>
+    <!-- la meta charset permet la prise en charge par le navigateur des caractères accentuées notamment -->
+    <meta charset="UTF-8">
+    <!-- Prise en charge des vieux Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- cette méta est PRIMORDIALE dans le cadre d'un developpement responsive, maximum-scale à la valeur 1 permet de faire un site WebApp càd dans lequel on ne peut pas zoomer-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- cette méta sert  au référencement et permet à Google d'afficher une description sous le lien du site dans une page de recherche -->
+    <meta name="description" content="Mes premiers pas html">
+    <!-- La balise title sert au référencement mais aussi à afficher un texte custom dans l'onglet du navigateur -->
+    <title>HOME</title>
+    <!-- La balise link permet de lier un fichier de style (CSS Cascade Style Sheet) avec la page courante afin d'y localiser le code de la mise en forme des différents objets html de la page
+    la balise link est toujours dans head
+    Si l'attribut rel (relation) n'est pas présent ou mal renseigné la feuille de style n'est pas prise en compte
+    L'attribut href permet de lier le fichier css à l'aide d'une url relative (relative au fichier qui fait l'appel) de sorte qu'ici le fichier se trouvant dans un dossier nommé css le lien est
+    css(nom du dossier)/style.css (nom du fichier)
+    On distingue une url relative (càd à partir du fichier dans lequel se trouve le lien) d'une url absolue qui serait du type https://www.monsite.com/css/style.css
+    -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- h1 est une balise de titre qui sert au référencement (on peut utiliser de h1 à h6, attention 1 seule balise h1 par page) -->
+    <h1>LE TITRE DE LA PAGE</h1>
+    <h2>UN SOUS TITRE DANS LA PAGE</h2>
+    <h3>UN SOUS SOUS TITRE</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias labore quidem error quasi esse ea magni, a aspernatur corrupti totam tenetur quos pariatur velit reiciendis modi possimus nam at. Aspernatur.</p>
+    
+   
+</body>
+
+</html>
